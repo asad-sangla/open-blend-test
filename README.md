@@ -149,3 +149,7 @@ My anserw is __George__ is lying and he the guilty person.
 ## Test 7
 
 What problems can you find in this picture?
+
+![alt text](https://raw.githubusercontent.com/asad-sangla/open-blend-home/main/open-blen-screen-hot.jpg?token=ABUYDWTKCD5CQPAKDOI7PL272CRRI)
+
+### Answer - Test 7
