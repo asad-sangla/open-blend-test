@@ -163,4 +163,6 @@ What problems can you find in this picture?
 
 5. Does not have arrow button __<__ to close left menu
 
+6. Left menu dose not have an icon for Session Booking menu item
+
 ![alt text](https://raw.githubusercontent.com/asad-sangla/open-blend-test/main/open-blen-screen-shot-issues.jpg?token=ABUYDWTGYOA63CP5AH7TSGS72CZPY)
