@@ -149,7 +149,18 @@ My anserw is __George__ is lying and he the guilty person.
 ## Test 7
 
 What problems can you find in this picture?
-
-![alt text](https://raw.githubusercontent.com/asad-sangla/open-blend-home/main/open-blen-screen-hot.jpg?token=ABUYDWTKCD5CQPAKDOI7PL272CRRI)
+![alt text](https://raw.githubusercontent.com/asad-sangla/open-blend-test/main/open-blen-screen-shot.jpg?token=ABUYDWUHBS2G47UM7OQAK3S72CZFC)
 
 ### Answer - Test 7
+
+1. Table alignment is worng.
+
+2. Spacing between column is less, Text is not aligned properly.
+
+3. Heading is not aligned to left.
+
+4. Usability issue, cannot understand that it is button for acount page or just a the letter of username.
+
+5. Does not have arrow button __<__ to close left menu
+
+![alt text](https://raw.githubusercontent.com/asad-sangla/open-blend-test/main/open-blen-screen-shot-issues.jpg?token=ABUYDWTGYOA63CP5AH7TSGS72CZPY)
