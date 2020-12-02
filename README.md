@@ -127,10 +127,10 @@ Write a query to show how many sessions there were each month in the years 2018 
 ### Answer - Test 5
 
 ```SQL
-SELECT DATEPART(YEAR, sh.SessionDate) AS SessionYear, FORMAT(sh.SessionDate, 'MMMM') AS SessionMonth, COUNT(*) SessionsPerMonth
+SELECT YEAR(sh.SessionDate) AS SessionYear, FORMAT(sh.SessionDate, 'MMMM') AS SessionMonth, COUNT(*) SessionsPerMonth
 FROM SessionHistory sh
 WHERE YEAR(sh.SessionDate) IN (2018, 2019)
-GROUP BY DATEPART(YEAR, sh.SessionDate), FORMAT(sh.SessionDate, 'MMMM')
+GROUP BY YEAR(sh.SessionDate), FORMAT(sh.SessionDate, 'MMMM')
 ORDER BY MIN(sh.SessionDate)
 ```
 
