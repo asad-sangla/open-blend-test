@@ -1,6 +1,6 @@
 # OpenBlend Developer Test
 
-Solved Developer Test for OpenBlend Intervivew Session.
+Solved Developer Test for OpenBlend Interview Session.
 
 ## Test 1
 
