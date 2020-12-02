@@ -26,7 +26,7 @@ public class Test3
 
 ### Answer - Test 1
 
-Process exists with code. System will not display any output because we split arguments input with space and `args.lenght is = 2` and else statement is for nested if statement
+Process exits with a code. System will not display any output because we split arguments input with space and `args.lenght is = 2` and else statement is for nested if statement
 
 ## Test 2
 
@@ -98,7 +98,7 @@ What validation should we perform on each row of data before we save it into our
 
 ### Answer - Test 4
 
-I would like to create a validation method for it by using Regular expression for email validation and for check 2 emails per row I'll run a LINQ query and then I'll reurn the result.  
+I would like to create a validation method for it by using Regular expression for email validation and to check 2 emails per row I'll run a LINQ query to validate number of emails in a row and then I'll reurn the result.  
 __Detailed Answer is in the solution file in class `ValidateExcelDataQuestion.cs`, please run the code to see the working result__
 
 ```C#
@@ -129,7 +129,7 @@ Write a query to show how many sessions there were each month in the years 2018 
 ```SQL
 SELECT DATEPART(YEAR, sh.SessionDate) AS SessionYear, FORMAT(sh.SessionDate, 'MMMM') AS SessionMonth, COUNT(*) SessionsPerMonth
 FROM SessionHistory sh
-WHERE YEAR(sh.SessionDate) = 2018 OR YEAR(sh.SessionDate) = 2019
+WHERE YEAR(sh.SessionDate) IN (2018, 2019)
 GROUP BY DATEPART(YEAR, sh.SessionDate), FORMAT(sh.SessionDate, 'MMMM')
 ORDER BY MIN(sh.SessionDate)
 ```
@@ -144,7 +144,7 @@ Only the guilty person is lying, all the others are telling the truth.  Who is g
 
 ### Answer - Test 6
 
-My anserw is __George__ is lying and he the guilty person.
+My answer, __George__ is lying and he the guilty person.
 
 ## Test 7
 
@@ -153,11 +153,11 @@ What problems can you find in this picture?
 
 ### Answer - Test 7
 
-1. Table alignment is worng.
+1. The table alignment is incorrect floating outside the wrapper div.
 
 2. Spacing between column is less, Text is not aligned properly.
 
-3. Heading is not aligned to left.
+3. Heading is not aligned to the left side.
 
 4. Usability issue, cannot understand that it is button for acount page or just a the letter of username.
 
