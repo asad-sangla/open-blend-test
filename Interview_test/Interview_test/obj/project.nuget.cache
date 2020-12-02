@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RS+Pd0zVqB/vzI1+aMgLxlIFvFO2+D7bQWebgwNp9pmFpAYFagrxdCaRFjLJ6wo7wbr4snUh3/+lTnJN5QNwpw==",
+  "success": true,
+  "projectFilePath": "D:\\Asad\\Projects\\Interview_test\\Interview_test\\Interview_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asad\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
