@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Asad\\Projects\\Interview_test\\Interview_test\\Interview_test.csproj": {}
+    "D:\\Asad_Files\\My_Projects\\asad\\open-blend-home\\Interview_test\\Interview_test\\Interview_test.csproj": {}
   },
   "projects": {
-    "D:\\Asad\\Projects\\Interview_test\\Interview_test\\Interview_test.csproj": {
+    "D:\\Asad_Files\\My_Projects\\asad\\open-blend-home\\Interview_test\\Interview_test\\Interview_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asad\\Projects\\Interview_test\\Interview_test\\Interview_test.csproj",
+        "projectUniqueName": "D:\\Asad_Files\\My_Projects\\asad\\open-blend-home\\Interview_test\\Interview_test\\Interview_test.csproj",
         "projectName": "Interview_test",
-        "projectPath": "D:\\Asad\\Projects\\Interview_test\\Interview_test\\Interview_test.csproj",
-        "packagesPath": "C:\\Users\\asad\\.nuget\\packages\\",
-        "outputPath": "D:\\Asad\\Projects\\Interview_test\\Interview_test\\obj\\",
+        "projectPath": "D:\\Asad_Files\\My_Projects\\asad\\open-blend-home\\Interview_test\\Interview_test\\Interview_test.csproj",
+        "packagesPath": "C:\\Users\\Asad\\.nuget\\packages\\",
+        "outputPath": "D:\\Asad_Files\\My_Projects\\asad\\open-blend-home\\Interview_test\\Interview_test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\asad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Asad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.picserve.co.uk/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Text;
-using System.IO;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text.RegularExpressions;
-using ExcelDataReader;
 
 namespace Interview_test
 {
@@ -23,9 +17,9 @@ namespace Interview_test
                 var rowValidationStatus = dataValidationResult ? "Valid Row" : "Invalid Row";
                 Console.WriteLine($"{rowNumber} - {rowValidationStatus} - {rowData}");
             }
-
-
+            Console.WriteLine("\n");
             #endregion
+
 
 
             #region Test3
@@ -42,7 +36,9 @@ namespace Interview_test
                 RightBranch = new BinaryTree<Node> { NodeValue = new Node(0) }
             };
             Console.WriteLine($"BinaryTree Test count: {tree.Count()}");
+            Console.WriteLine("\n");
             #endregion
+
 
 
             #region Test2
@@ -50,7 +46,9 @@ namespace Interview_test
             var a = new A();
             var result = a.Foo();
             Console.WriteLine($"result of F00 method: {result}");
+            Console.WriteLine("\n");
             #endregion
+
 
             #region Test1
             Console.WriteLine("Test 1 - check 'adabra cadabra' an an input for the following code");
@@ -63,6 +61,8 @@ namespace Interview_test
                     Console.WriteLine("Not enough inputs");
                 else
                     Console.WriteLine(args[0] + args[1]);
+
+            Console.WriteLine("\n");
             #endregion
         }
 
